@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Posts extends Model
+class CreatePost extends Model
 {
     protected $fillable = [
-    	"title", "text"
+        "title", "user_id", "description"
     ];
 }
